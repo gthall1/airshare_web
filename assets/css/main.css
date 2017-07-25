@@ -166,6 +166,31 @@ body {
     }
 }
 
+@media screen and (max-width: 350px) {
+    .navmenu, .navbar-offcanvas {
+        width: 250px;
+    }
+
+    .navhome {
+        margin-top: -36px;
+    }
+
+    .navmenubutton {
+        margin-top: -60px;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 0px;
+    }
+
+    .menuname {
+        margin-right: 75px;
+    }
+
+    .menuusername {
+        margin-right: 150px;
+    }
+}
 
 
 
