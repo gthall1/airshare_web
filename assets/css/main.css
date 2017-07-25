@@ -1,0 +1,174 @@
+/* custom */
+
+body {
+	background-color: #1c1c1c;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #1c1c1c;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #1c1c1c;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #4A8FE2;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+    width: 38px;
+    height: 2px;
+    margin-top: 12px;
+    border-radius: 1px;
+    margin-bottom: 7px;
+}
+
+.page-header {
+	padding-bottom: 9px;
+    margin: 20px 0 20px;
+    border-bottom: 1px solid #4A8FE2;
+    text-align: center;
+}
+
+.navlogo {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navhome {
+    float: right;
+    margin-top: -52px;
+    margin-right: 14px;
+}
+
+.navmenu-default, .navbar-default .navbar-offcanvas {
+    background-color: #338CEC;
+    border-color: #1c1c1c;
+}
+
+.maincontainer {
+    background-color: #000;
+    width: 600px;
+    height: 800px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.pageheader {
+    text-align: center;
+    color: #fff;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    margin-top: 125px;
+}
+
+.bluecontainer {
+    width: 100%;
+    height: 100px;
+    background-color: #275585;
+}
+
+.menupic {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.menuname {
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
+    color: #fff !important;
+}
+
+.menuusername {
+    color: #85BAF0;
+    float: right;
+    margin-right: 194px;
+    margin-top: -22px;
+}
+
+.namescontainer {
+    margin-top: -73px;
+}
+
+.menuoption {
+    color: #fff !important;
+}
+
+.navbar {
+    background-color: #1c1c1c;
+}
+
+.navmenubutton {
+    margin-top: -65px;
+}
+
+.navmenu, .navbar-offcanvas {
+    width: 300px;
+}
+
+.navmenu-default .navmenu-nav>li>a, .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.navicons {
+    float: left;
+    width: 12%;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.navbar-default {
+    border-color: #8FC1FA;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .pageheader {
+        margin-top: 75px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .navlogo {
+        width: 9%;
+    }
+
+    .navhome {
+        margin-top: -41px;
+    }
+
+    .navbar-toggle .icon-bar {
+        margin-top: 20px;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 2px;
+    }
+
+    .pageheader {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
