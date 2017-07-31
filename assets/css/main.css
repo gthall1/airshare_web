@@ -285,11 +285,11 @@ body {
 
 .sentviewbutton {
     float: right;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
     margin-top: -40px;
     margin-right: 105px;
     background-color: #398EE9;
@@ -298,11 +298,108 @@ body {
     font-size: 18px;
 }
 
+.price {
+    float: right;
+    margin-top: -129px;
+    margin-right: 84px;
+    font-size: 48px;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .sentpic {
+        margin-right: 244px;
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+    .sentpic {
+        margin-right: 194px;
+    }
+
+}
 
 
+@media screen and (max-width: 390px) {
+    .sentpic {
+        margin-right: 156px;
+    }
 
+    .price {
+        margin-top: -115px;
+        margin-right: 20px;
+        font-size: 36px;
+    }
 
+    .sentviewbutton {
+        margin-right: 34px;
+    }
 
+}
+
+@media screen and (max-width: 356px) {
+    .sentpic {
+        margin-right: 112px;
+    }
+
+    .sentnamedate {
+        margin-left: 216px;
+        margin-top: -176px;
+    }
+
+    .sentname, .sentdate {
+        font-size: 12px;
+    }
+
+}
+
+.containerblue {
+    background-color: #398EE9;
+}
+
+.wishlistheader {
+    font-size: 28px;
+    margin-bottom: 37px;
+    color: #fff;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.waitingfor {
+    color: #1D5898;
+    font-size: 20px;
+    width: 75%;
+    padding-left: 20px;
+}
+
+.newairsharebutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    width: 219px;
+    border-radius: 6px;
+    background-color: #295197;
+    border: solid 1px #295197;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .wishlistheader {
+        font-size: 22px;
+        padding-top: 40px;
+    }
+
+    .waitingfor {
+        font-size: 16px;
+    }
+
+}
 
 
 

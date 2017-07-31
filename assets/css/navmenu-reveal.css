@@ -40,3 +40,7 @@ html, body {
     padding: 0;
   }
 }
+
+.canvasblue {
+  background-image: url("../images/background_tile_blue.jpg") !important;
+}
