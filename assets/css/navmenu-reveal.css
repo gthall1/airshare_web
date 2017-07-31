@@ -17,7 +17,8 @@ html, body {
   z-index: 2;
   min-height: 100%;
   padding: 50px 0 0 0;
-  background: #1c1c1c;
+  background-color: #1c1c1c;
+  background-image: url("../images/background_tile_black.jpg") !important;
 }
 
 @media (min-width: 0) {
