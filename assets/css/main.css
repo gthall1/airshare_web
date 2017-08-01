@@ -401,11 +401,55 @@ body {
 
 }
 
+.selectrecipientpic {
+    width: 17%;
+}
 
+.nameandnumber {
+    margin-left: 128px;
+    margin-top: -67px;
+}
 
+.selectrecipient {
+    border-bottom: solid 1px rgba(255,255,255,.5);
+    height: 124px; 
+}
 
+.newcontactbutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    width: 300px;
+    border-radius: 0px;
+    background-color: #000;
+    border: solid 1px #000;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
 
+@media screen and (max-width: 480px) {
+    .nameandnumber {
+        margin-left: 116px;
+        margin-top: -60px;
+    }
 
+}
+
+@media screen and (max-width: 380px) {
+    .nameandnumber {
+        margin-left: 100px;
+        margin-top: -54px;
+    }
+
+    .recipientname, .recipientnumber {
+        font-size: 18px;
+    }
+
+}
 
 
 
