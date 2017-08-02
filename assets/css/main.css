@@ -451,9 +451,142 @@ body {
 
 }
 
+.feedbackbizname {
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.feedbackcategory {
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    width: 90%;
+    padding-left: 20px;
+}
+
+.feedbackfield {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #398EE9;
+    color: #005AAF;
+    border: none;
+    box-shadow: inset 1px 1px 1px 0 rgba(0,0,0,0.10), inset -1px -1px 1px 0 rgba(0,0,0,0.10);
+}
+
+.feedbackfield::-webkit-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 20px;
+ }  /* WebKit, Blink, Edge */
+.feedbackfield:-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 20px; 
+}  /* Mozilla Firefox 4 to 18 */
+.feedbackfield::-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 20px; 
+}  /* Mozilla Firefox 19+ */
+.feedbackfield:-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 20px; 
+}  /* Internet Explorer 10-11 */
+.feedbackfield::-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 20px; 
+}  /* Microsoft Edge */
 
 
+.love {
+    margin-top: 40px;
+}
 
+@media (min-width: 992px) {
+    .navbar {
+        height: 84px;
+    }
+}
 
+.navback {
+    float: left;
+    margin-top: -50px;
+    margin-left: 16px;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
 
+.marksection {
+    margin-left: 190px;
+    margin-top: 50px;
+}
+
+.checkcircle {
+    float: left;
+    width: 26px;
+}
+
+.markurgent {
+    margin-left: 36px;
+    padding-top: 3px;
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+}
+
+.sendfeedbackbutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    width: 219px;
+    border-radius: 6px;
+    background-color: #295197;
+    border: solid 1px #295197;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 36px;
+}
+
+@media screen and (max-width: 480px) {
+    .feedbackbizname {
+        margin-top: 20px;
+    }
+
+    .navback {
+        font-size: 18px;
+        margin-top: -36px;
+    }
+
+    .marksection {
+        margin-left: 152px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .navback {
+        margin-top: -30px;
+        font-size: 16px;
+    }
+
+    .marksection {
+        margin-left: 130px;
+    }
+
+    .feedbackfield {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 351px) {
+    .marksection {
+        margin-left: 96px;
+    }
+
+}
 
