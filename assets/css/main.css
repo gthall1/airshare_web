@@ -719,8 +719,33 @@ body {
 
 }
 
+.sliderimage {
+    margin: auto;
+    margin-top: 50px;
+}
 
 
+@media screen and (max-width: 991px) {
+    .sliderimage {
+        margin-top: 10px;
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .sliderimage {
+        margin-top: 50px;
+        width: 40%;
+    }
+
+    .slidersubheader {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+}
 
 
 
