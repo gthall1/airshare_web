@@ -698,7 +698,7 @@ body {
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 40px !important;
+    bottom: 30px !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -736,7 +736,7 @@ body {
 @media screen and (max-width: 480px) {
     .sliderimage {
         margin-top: 20px;
-        width: 50%;
+        width: 40%;
     }
 
     .slidersubheader {
