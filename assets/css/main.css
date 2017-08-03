@@ -920,6 +920,57 @@ input[type=password] {
   appearance: none;
 }
 
+.signupbutton:hover {
+    background-color: #4A90E2;
+    border: solid 1px #4A90E2;
+    color: #fff;
+}
+
+.signupbutton:focus, .signupbutton:active {
+    background-color: #4A90E2 !important;
+    border: solid 1px #4A90E2 !important;
+    color: #fff !important;
+}
+
+.loginbutton:hover {
+    background-color: transparent;
+    border: solid 1px #4A90E2;
+    color: #4A90E2;
+}
+
+.loginbutton:focus, .loginbutton:active {
+    background-color: transparent !important;
+    border: solid 1px #4A90E2 !important;
+    color: #4A90E2 !important;
+}
+
+.backlink2:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
