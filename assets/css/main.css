@@ -590,3 +590,128 @@ body {
 
 }
 
+.canvaswhite {
+    background-image: none;
+    background-color: #fff;
+}
+
+.containerwhite {
+    background-color: #fff;
+}
+
+.signuplogo {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.signupheader {
+    text-align: center;
+    color: #4a4a4a;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    margin-top: 85px;
+    margin-bottom: 14px;
+}
+
+.signupsubheader {
+    color: #9b9b9b;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 18px;
+}
+
+.signupbutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    width: 275px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    border: solid 1px #4A90E2;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 36px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
+
+.loginbutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    width: 275px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: solid 1px #4A90E2;
+    color: #4A90E2;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
+
+
+@media screen and (max-width: 991px) {
+    .signuplogo {
+        margin-top: 0px;
+    }
+
+    .containerwhite {
+        padding-top: 0;
+    }
+
+    .signupheader {
+        margin-top: 56px;
+    }
+
+}
+
+.seemore {
+    color: #9b9b9b;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.taketour, .take {
+    color: #4A90E2 !important;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4A90E2 !important;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

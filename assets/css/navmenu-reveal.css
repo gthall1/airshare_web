@@ -18,7 +18,7 @@ html, body {
   min-height: 100%;
   padding: 50px 0 0 0;
   background-color: #1c1c1c;
-  background-image: url("../images/background_tile_black.jpg") !important;
+  background-image: url("../images/background_tile_black.jpg");
 }
 
 @media (min-width: 0) {
@@ -42,5 +42,5 @@ html, body {
 }
 
 .canvasblue {
-  background-image: url("../images/background_tile_blue.jpg") !important;
+  background-image: url("../images/background_tile_blue.jpg");
 }
