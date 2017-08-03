@@ -735,8 +735,8 @@ body {
 
 @media screen and (max-width: 480px) {
     .sliderimage {
-        margin-top: 50px;
-        width: 40%;
+        margin-top: 20px;
+        width: 50%;
     }
 
     .slidersubheader {
