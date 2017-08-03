@@ -731,6 +731,10 @@ body {
         width: 40%;
     }
 
+    .sliderheader {
+        margin-top: 40px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -743,6 +747,10 @@ body {
         width: 70%;
         display: block;
         margin: auto;
+    }
+
+    .sliderheader {
+        margin-top: 20px;
     }
 
 }
