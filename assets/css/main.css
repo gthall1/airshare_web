@@ -754,11 +754,154 @@ body {
 
 }
 
+.middleor {
+    width: 70%;
+    text-align: center;
+    border-bottom: 1px solid #E0E2E5;
+    line-height: 1px;
+    display: block;
+    margin: auto;
+    margin-top: 50px; 
+    font-size: 18px;
+    color: #E0E2E5;
+    margin-bottom: 50px;
+} 
 
+.middlespan { 
+    background: #fff; 
+    padding:    0 10px; 
+}
 
+.envelopeicon {
+  font-size: 18px;
+}
 
+.newaddons {
+  color: #E0E2E5;
+  background-color: transparent;
+}
 
+.lockicon {
+  font-size: 27px;
+}
 
+.form-control::-webkit-input-placeholder { color: #B6BCBF; }
+.form-control:-moz-placeholder { color: #B6BCBF; }
+.form-control::-moz-placeholder { color: #B6BCBF; }
+.form-control:-ms-input-placeholder { color: #B6BCBF; }
+
+.form-control {
+  height: 45px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: solid 1px #EEE;
+
+}
+
+.input-group-addon {
+    border-radius: 2px;
+    border: 1px solid #EEE;
+}
+
+.loginbutton2 {
+    margin-top: 70px;
+}
+
+.signupfbbutton {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.signupfields {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.terms {
+    text-decoration: underline;
+    color: #9b9b9b !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.backlink {
+    padding-top: 40px;
+    padding-left: 30px;
+    color: #B6BCBF;
+    font-size: 20px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
+
+.noheadroom {
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1080px) {
+    .noheadroom {
+        margin-top: -50px;
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .noheadroom {
+        margin-top: 0px;
+        width: 20%;
+    }
+
+    .backlink {
+        padding-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .noheadroom {
+        margin-top: -8px;
+        width: 20%;
+    }
+
+    .backlink {
+        padding-top: 12px;
+        padding-left: 16px;
+    }
+
+    .signupfbbutton {
+        width: 275px;
+    }
+
+    .middleor {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .fontdown {
+        font-size: 12px;
+    }
+
+    .backlink {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .fontdown {
+        font-size: 10px;
+    }
+
+}
 
 
 
