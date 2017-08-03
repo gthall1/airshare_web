@@ -701,6 +701,23 @@ body {
     bottom: 40px !important;
 }
 
+@media screen and (max-width: 480px) {
+    .signuplogo {
+        margin-top: 40px;
+        width: 20%;
+    }
+
+    .signupheader {
+        font-size: 24px;
+    }
+
+    .signupsubheader {
+        font-size: 14px;
+    }
+
+
+}
+
 
 
 
