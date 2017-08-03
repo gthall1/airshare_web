@@ -878,7 +878,8 @@ body {
     }
 
     .signupfbbutton {
-        width: 275px;
+        width: 250px;
+        margin-top: 32px;
     }
 
     .middleor {
@@ -894,6 +895,10 @@ body {
         font-size: 16px;
     }
 
+    .loginbutton2 {
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -903,7 +908,17 @@ body {
 
 }
 
+input[type=email] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
+input[type=password] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
 
 
