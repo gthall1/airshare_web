@@ -1012,6 +1012,7 @@ input[type=password] {
     border: none;
     font-size: 20px;
     outline: none;
+    height: 55px;
 }
 
 .ourglyph {
