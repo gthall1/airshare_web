@@ -1088,6 +1088,10 @@ input[type=password] {
 
 }
 
+.dropdown-backdrop {
+    position: static;
+}
+
 
 
 
