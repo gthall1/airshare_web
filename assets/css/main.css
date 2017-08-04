@@ -951,23 +951,142 @@ input[type=password] {
 
 
 
+/* trying horizontal scroll for home */
 
 
+.cover-container {
+    height: 180px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.cover-item {
+    position: relative;
+    display: inline-block;
+    margin: 8px 8px;
+    box-shadow: none;
+    border-top-right-radius: 4px;
+    width: 116px;
+    height: 158px;
+    vertical-align: bottom;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+}
+
+.horizontalheader {
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.giftrecipient {
+    background-color: #1c1c1c;
+    background-image: url("../images/nu_adduser_2.png");
+    position: relative;
+    display: inline-block;
+    margin: 8px 8px;
+    box-shadow: none;
+    border-top-right-radius: 4px;
+    width: 116px;
+    height: 158px;
+    vertical-align: bottom;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 116px;
+}
+
+.recipientsmallname {
+    color: #31547E;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.homelocation {
+    display: block;
+    margin: auto;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.ourglyph {
+    color: #4A8FE2;
+}
+
+.locationlocation {
+    line-height: 50px;
+    border-bottom: solid 1px rgba(74,124,226,0.5);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.recipientshomesection {
+    border-bottom: solid 1px rgba(74,124,226,0.5);
+}
+
+.homeloction:focus, .homelocation:active {
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+.btn:focus,.btn:active {
+   outline: 0 none !important;
+}
+
+.recipientblue {
+    color: #81AED8;
+}
+
+.to {
+    font-size: 16px;
+}
+
+.tinybump {
+    margin-top: 8px;
+}
+
+.locationdropdown {
+    width: 100%;
+    background-color: #338CEC;
+    min-height: 300px;
+}
+
+@media screen and (max-width: 480px) {
+    .to {
+        margin-top: 22px;
+    }
+
+    .giftrecipient {
+        background-size: 106px;
+        margin-left: -5px;
+    }
 
 
+}
+
+@media screen and (max-width: 380px) {
+    .giftrecipient {
+        background-size: 100px;
+        margin-left: -8px;
+    }
 
 
+}
+
+@media screen and (max-width: 351px) {
+    .giftrecipient {
+        background-size: 94px;
+        margin-left: -11px;
+    }
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
