@@ -1096,7 +1096,140 @@ input[type=password] {
         margin-top: 0;
     }
 
+    .maincontainer {
+        padding-top: 5px;
+    }
+
 }
+
+@media screen and (max-width: 480px) {
+    .maincontainer {
+        padding-top: 50px;
+    }
+
+}
+
+
+.videocontainer {
+    height: 600px;
+    width: 375px;
+    display: block;
+    margin: auto;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inbetween {
+    height: 130px;
+}
+
+.lowercontainer {
+    height: 600px;
+    width: 375px;
+    display: block;
+    margin: auto;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vidplay {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-top: 150px;
+}
+
+.vidplay2 {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-top: 50px;
+}
+
+.airsharenote {
+    height: 230px;
+    margin-top: 125px;
+}
+
+.airsharename {
+    margin-left: 70px;
+    margin-top: -36px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.airsharemsg {
+    color: #fff;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 30px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
+
+.picandname {
+    margin-left: 30px;
+}
+
+.fader {
+    width: 100%;
+    margin-top: -115px;
+}
+
+.fader2 {
+    width: 100%;
+    margin-top: ;
+}
+
+.price2 {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.betweencompany {
+    color: #fff;
+    font-size: 28px;
+    margin-left: 75px;
+    padding-top: 26px;
+}
+
+.betweencategory {
+    color: #338CEC;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
