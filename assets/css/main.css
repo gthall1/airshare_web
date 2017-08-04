@@ -1261,7 +1261,29 @@ input[type=password] {
 
 }
 
+.to {
+    color: #8FC1FA;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+}
 
+@media screen and (max-width: 980px) {
+    .to {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .to {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: -6px;
+    }
+
+}
 
 
 
