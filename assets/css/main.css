@@ -1085,13 +1085,18 @@ input[type=password] {
         margin-left: -11px;
     }
 
-
 }
 
+.containerbump {
+    margin-top: 60px;
+}
 
+@media screen and (max-width: 980px) {
+    .containerbump {
+        margin-top: 0;
+    }
 
-
-
+}
 
 
 
