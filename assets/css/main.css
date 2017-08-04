@@ -1210,17 +1210,56 @@ input[type=password] {
     margin-top: -10px;
 }
 
+.airsharetabs {
+    width: 50%;
+    margin-left: 0 !important;
+}
 
+.toredeem {
+    background-color: #1c1c1c !important;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0 !important;
+    color: #fff;
+}
 
+.active {
+    border-bottom: 3px solid #337ab7;
+}
 
+.tab-content>.tab-pane {
+    min-height: 500px;
+    border: none !important;
+}
 
+.airshareemptystate {
+    color: #fff;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+}
 
+.nav {
+    border-bottom: solid .5px rgba(51,122,183,.4);
+    border-top: solid .5px rgba(51,122,183,.4);
+}
 
+@media screen and (max-width: 480px) {
+    .airsharetabs {
+        margin-top: 7px;
+    }
 
+    .toredeem {
+        font-size: 18px;
+    }
 
+    .airshareemptystate {
+        font-size: 14px;
+    }
 
-
-
+}
 
 
 
