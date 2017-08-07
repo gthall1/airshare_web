@@ -1511,7 +1511,22 @@ input[type=tel] {
 
 }
 
+@media screen and (max-width: 980px) {
+    .hometo {
+        margin-top: 40px;
+        margin-bottom: -10px;
+    }
 
+
+}
+
+@media screen and (max-width: 480px) {
+    .hometo {
+        margin-top: 30px;
+    }
+
+
+}
 
 
 
