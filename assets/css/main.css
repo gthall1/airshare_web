@@ -920,6 +920,18 @@ input[type=password] {
   appearance: none;
 }
 
+input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=tel] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .signupbutton:hover {
     background-color: #4A90E2;
     border: solid 1px #4A90E2;
