@@ -1285,6 +1285,234 @@ input[type=password] {
 
 }
 
+.contactsavebutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    width: 250px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: solid 3px #005DB2;
+    color: #005DB2;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.myaccountpic {
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.halfform {
+    width: 50%;
+}
+
+.lefty {
+    float: left;
+}
+
+.righty {
+    float: right;
+}
+
+.myaccountfieldleft {
+    background-color: transparent;
+    border-left: none;
+    width: 100% !important;
+    border-color: #005DB2;
+    color: #fff;
+    font-size: 18px;
+}
+
+.myaccountfieldright {
+    background-color: transparent;
+    border-right: none;
+    width: 100% !important;
+    border-color: #005DB2;
+    color: #fff;
+    font-size: 18px;
+}
+
+.fullwidthfield {
+    width: 100% !important;
+    margin-top: -20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hunnap {
+    width: 100% !important;
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-color: #005DB2;
+    border-top: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hunnap::-webkit-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px;
+ }  /* WebKit, Blink, Edge */
+.hunnap:-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Mozilla Firefox 4 to 18 */
+.hunnap::-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Mozilla Firefox 19+ */
+.hunnap:-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Internet Explorer 10-11 */
+.hunnap::-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Microsoft Edge */
+
+
+.myaccountfieldleft::-webkit-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px;
+ }  /* WebKit, Blink, Edge */
+.myaccountfieldleft:-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Mozilla Firefox 4 to 18 */
+.myaccountfieldleft::-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Mozilla Firefox 19+ */
+.myaccountfieldleft:-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Internet Explorer 10-11 */
+.myaccountfieldleft::-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Microsoft Edge */
+
+.myaccountfieldright::-webkit-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px;
+ }  /* WebKit, Blink, Edge */
+.myaccountfieldright:-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Mozilla Firefox 4 to 18 */
+.myaccountfieldright::-moz-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Mozilla Firefox 19+ */
+.myaccountfieldright:-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Internet Explorer 10-11 */
+.myaccountfieldright::-ms-input-placeholder { 
+    color: rgba(0,90,175,.75);
+    font-size: 18px; 
+}  /* Microsoft Edge */
+
+.airshareaddon {
+    width: 11% !important;
+    background-color: transparent;
+    border-color: #005DB2;
+    border-left: none;
+    border-top: none;
+}
+
+.halfaddons {
+    width: 21% !important;
+    border-top: solid 1px;
+}
+
+.contactsavebutton:hover {
+    background-color: transparent;
+    color: #005DB2;
+    border: solid 3px #005DB2;
+}
+
+.contactsavebutton:focus {
+    background-color: transparent !important;
+    color: #005DB2 !important;
+    border: solid 3px #005DB2 !important;
+}
+
+.contactsavebutton:active {
+    background-color: transparent !important;
+    color: #005DB2 !important;
+    border: solid 3px #005DB2 !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .myaccountpic {
+        margin-bottom: 40px;
+    }
+
+    .fullwidthfield {
+        height: 55px;
+    }
+
+    .specialinputgroup {
+    margin-top: -25px;
+    }
+
+    .weirdfield {
+        margin-bottom: 30px;
+    }
+
+    .righty, .lefty {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .myaccountpic {
+        margin-top: 26px;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    .myaccountpic {
+        margin-top: 22px;
+    }
+
+    .airshareaddon {
+        width: 13% !important;
+    }
+
+    .halfaddons {
+        width: 26% !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
