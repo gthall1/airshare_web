@@ -20,9 +20,9 @@ body {
 .navbar-toggle .icon-bar {
 	display: block;
     width: 38px;
-    height: 2px;
-    margin-top: 12px;
-    border-radius: 1px;
+    height: 3px;
+    margin-top: 10px;
+    border-radius: 0px;
     margin-bottom: 7px;
 }
 
@@ -1127,10 +1127,10 @@ input[type=tel] {
     width: 375px;
     display: block;
     margin: auto;
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
+    /* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
     background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("../images/girl.png");  */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1671,7 +1671,17 @@ input[type=tel] {
     border-color: #fff !important;
 }
 
+.merchantthumb {
+    display: block;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.merchantfader {
+    width: 100%;
+    margin-top: -60px;
+}
 
 
 
