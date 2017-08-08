@@ -1689,6 +1689,7 @@ input[type=tel] {
     width: 375px;
     display: block;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .merchantdeets {
@@ -1757,10 +1758,47 @@ input[type=tel] {
 }
 
 .moreoptions {
-    
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 
+.merchanticons {
+    width: 15%;
+    margin-right: 10px;
+    margin-top: -6px;
+    margin-left: 10px;
+    display: inline-block;
+}
 
+.getinline {
+    display: inline-block !important;
+    font-size: 18px;
+}
+
+.merchantmenu {
+    border: none;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.littleroom {
+    margin-bottom: 7px;
+    border-bottom: solid 1px rgba(255,255,255,.13);
+    width: 80%;
+}
+
+.getinline:hover {
+    background-color: transparent !important;
+}
+
+.getinline:focus {
+    background-color: transparent !important;
+}
+
+.getinline:active {
+    background-color: transparent !important;
+}
 
 
 
