@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="">
 
-    <title>Locations</title>
+    <title>View Merchant</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <!--  off canvas navigation
+    <!--  off canvas navigation -->
     <div class="navmenu navmenu-default navmenu-fixed-left">
       <div class="bluecontainer">
         <img src="assets/images/profile_pic.png" alt="..." class="img-circle menupic">
@@ -49,20 +49,20 @@
         <li><img src="assets/images/nu_ccancel.png" class="img-responsive navicons" alt="Responsive image"><a href="../navbar-offcanvas/" class="menuoption">Logout</a></li>
       </ul>
       
-    </div> -->
+    </div>
 
     <!-- where page body really starts -->
     <div class="canvas">
       <div class="navbar navbar-default navbar-fixed-top">
         <img src="assets/images/blue_nav_logo.png" class="img-responsive navlogo" alt="Responsive image">
 
-        <a href="#"><p class="navback">back</p></a>
+        <!-- <a href="#"><p class="navback">back</p></a> -->
 
-        <!--  <button type="button" class="navbar-toggle navmenubutton" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+        <button type="button" class="navbar-toggle navmenubutton" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>  -->
+        </button>
 
         
 
@@ -81,7 +81,7 @@
         
         <div class="maincontainer">
 
-         <h2 class="pageheader">Gracie's Macarons Locations</h2>
+         <h2 class="pageheader">Gracie's Macarons</h2>
 
          <div class="videocontainer loccontainer" style="background-image: url(assets/images/gracie_big.png)">
             <a href="#"><img src="assets/images/nu_play.png" class="img-responsive vidplay" alt="Responsive image"></a>
@@ -95,9 +95,29 @@
 
             </div>  <!-- locationtitles -->
 
-            
-
           </div> <!-- video container -->
+
+          <div class="merchantdesc">
+            <p class="merchantdeets">I'm Gabrielle Russell and I learned how to bake macarons because I love them and my habit was getting expensive. I want to share what I've learned. Call me at (904) 234-6284 to redeem...</p>
+
+            <p class="showamount">$50</p>
+            <a href="#"><img src="assets/images/nu_minus.png" class="img-responsive minusbutton" alt="Responsive image"></a>
+            <a href="#"><img src="assets/images/nu_plus.png" class="img-responsive plusbutton" alt="Responsive image"></a>
+            <div class="dropdown">
+              <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                More Options
+                <span class="caret"></span>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li>$10</li>
+                <li>$20</li>
+              </ul>
+            </div>
+
+            <a class="btn btn-default addamountbutton" href="#" role="button">Add $50 Airshare</a>
+
+          </div>
 
           <div class="selectlocation">
             <img src="assets/images/nu_a_loc.png" class="img-responsive wishlistpic selectlocationpic" alt="Responsive image">
@@ -135,5 +155,6 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="assets/js/jasny-bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>

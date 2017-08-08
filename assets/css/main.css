@@ -1684,6 +1684,107 @@ input[type=tel] {
     margin-top: -60px;
 }
 
+.merchantdesc {
+    background-color: #000;
+    width: 375px;
+    display: block;
+    margin: auto;
+}
+
+.merchantdeets {
+    color: #fff;
+    width: 93%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.showamount {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.minusbutton {
+    float: left;
+    width: 15%;
+    margin-top: -97px;
+    margin-left: 44px;
+}
+
+.plusbutton {
+    width: 15%;
+    float: right;
+    margin-top: -97px;
+    margin-right: 44px;
+}
+
+.addamountbutton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    width: 219px;
+    border-radius: 6px;
+    background-color: #4A90E2;
+    border: solid 1px #4A90E2;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.addamountbutton:hover {
+    background-color: #4A90E2;
+    border: solid 1px #4A90E2;
+    color: #fff;
+}
+
+.addamountbutton:focus {
+    background-color: #4A90E2 !important;
+    border: solid 1px #4A90E2 !important;
+    color: #fff !important;
+}
+
+.addamountbutton:active {
+    background-color: #4A90E2 !important;
+    border: solid 1px #4A90E2 !important;
+    color: #fff !important;
+}
+
+.moreoptions {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
