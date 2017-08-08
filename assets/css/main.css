@@ -1635,6 +1635,24 @@ input[type=tel] {
     text-decoration: underline;
 }
 
+.diffplay {
+    padding-top: 10px;
+}
+
+.sidebybuttons {
+    background-color: transparent;
+    color: #fff;
+    width: 150px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.buttonscont {
+    text-align: center;
+    margin-top: 30px;
+}
+
 
 
 
