@@ -1592,7 +1592,21 @@ input[type=tel] {
     background-color: #398EE9;
 }
 
+@media screen and (max-width: 980px) {
+    .raisetheroof {
+        margin-top: 50px;
+    }
 
+
+}
+
+@media screen and (max-width: 480px) {
+    .raisetheroof {
+        margin-top: 22px;
+    }
+
+
+}
 
 
 
