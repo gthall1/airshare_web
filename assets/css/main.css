@@ -1864,8 +1864,73 @@ a:focus, a:hover {
     padding-left: 52px;
 }
 
+.personalizerow {
+    height: 200px;
+}
 
+.leftblock {
+    height: 200px;
+    width: 50%;
+    float: left;
+}
 
+.rightblock {
+    height: 200px;
+    width: 50%;
+    float: right;
+}
+
+.block1 {
+    background-color: #89BCF6;
+}
+
+.block2 {
+    background-color: #6DAFF3;
+}
+
+.block3 {
+    background-color: #539FF0;
+}
+
+.block4 {
+    background-color: #348DED;
+}
+
+.block5 {
+    background-color: #005DB9;
+}
+
+.block6 {
+    background-color: #032E5F;
+}
+
+.personalizeicons {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.personalizetitle {
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.whitefont {
+    color: #fff;
+}
+
+.font56 {
+    color: #348DED;
+}
+
+.font3 {
+    color: #348DEF;
+}
+
+.font4 {
+    color: #005DB9;
+}
 
 
 
