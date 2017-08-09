@@ -1800,11 +1800,33 @@ input[type=tel] {
     background-color: transparent !important;
 }
 
+.a:focus,.a:active {
+   outline: none !important;
+}
 
+.img:focus,.img:active {
+   outline: none !important;
+}
 
+.vidplay:focus {
+   outline: none !important;
+   box-shadow: none !important;
+}
 
+.vidplay:active {
+    outline: none !important
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
 
+a:focus, a:hover {
+    color: transparent;
+    outline: none !important;
+}
 
+.vidplay {
+    outline: none !important;
+}
 
 
 
