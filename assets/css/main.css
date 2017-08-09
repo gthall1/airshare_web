@@ -471,7 +471,7 @@ body {
     margin: auto;
     margin-top: 30px;
     background-color: #398EE9;
-    color: #005AAF;
+    color: #fff;
     border: none !important;
     box-shadow: inset 1px 1px 1px 0 rgba(0,0,0,0.10), inset -1px -1px 1px 0 rgba(0,0,0,0.10) !important;
 }
