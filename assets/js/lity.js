@@ -555,7 +555,7 @@
             .addClass('lity-loading lity-opened lity-' + result.handler)
             .appendTo('body')
             .focus()
-            .on('click', '[data-lity-close]', function(e) {
+            .on('click touchstart', '[data-lity-close]', function(e) {
                 if ($(e.target).is('[data-lity-close]')) {
                     self.close();
                 }
