@@ -1932,9 +1932,13 @@ a:focus, a:hover {
     color: #005DB9;
 }
 
+[hidden] {
+  display: none !important;
+}
 
-
-
+.wide {
+    width: 100%;
+}
 
 
 
