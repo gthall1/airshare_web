@@ -2337,7 +2337,12 @@ a:focus, a:hover {
     }
 }
 
-
+input[type=select] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #1c1c1c !important;
+}
 
 
 
