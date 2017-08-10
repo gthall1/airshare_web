@@ -1968,13 +1968,14 @@ a:focus, a:hover {
 
 .selectacover {
     color: #fff;
-    margin-top: 60px;
+    margin-top: 80px;
     text-align: center;
 }
 
 .tinycoverscontainer {
     height: 200px;
     padding-top: 20px;
+    text-align: center;
 }
 
 .tinycover {
@@ -1984,6 +1985,7 @@ a:focus, a:hover {
     margin-right: 3px;
     background-color: #000;
     display: inline-block;
+    background-size: cover;
 }
 
 .sendfeedbackbutton:hover {
@@ -2007,6 +2009,84 @@ a:focus, a:hover {
 .fiver {
     margin-top: 0;
 }
+
+.active2 {
+    outline: solid 3px #fff;
+}
+
+.covercontainer {
+    height: 375px;
+    width: 300px;
+}
+
+@media screen and (max-width: 1280px) {
+    .selectacover {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .selectacover {
+        margin-top: 32px;
+    }
+
+    .tinycover {
+        height: 115px;
+        width: 70px;
+    }
+
+    .fiver {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .selectacover {
+        margin-top: 20px;
+    }
+
+    .tinycover {
+        height: 98px;
+        width: 60px;
+    }
+
+    .fiver {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .selectacover {
+        margin-top: 20px;
+    }
+
+    .tinycover {
+        height: 86px;
+        width: 50px;
+    }
+
+    .fiver {
+        margin-top: -60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
