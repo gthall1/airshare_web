@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+
+    <title>Confirmation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jasny-bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="assets/css/navmenu-reveal.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--  off canvas navigation -->
+    <div class="navmenu navmenu-default navmenu-fixed-left">
+      <div class="bluecontainer">
+        <img src="assets/images/profile_pic.png" alt="..." class="img-circle menupic">
+        <div class="namescontainer">
+          <a class="navmenu-brand menuname" href="#">Sara Smith</a>
+          <p class="menuusername">sara</p>
+        </div>
+      </div>
+      <ul class="nav navmenu-nav">
+        <li><img src="assets/images/uu_home.png" class="img-responsive navicons" alt="Responsive image"><a href="../navmenu/" class="menuoption">Home</a></li>
+        <li><img src="assets/images/uu_myairshares.png" class="img-responsive navicons" alt="Responsive image"><a href="../navmenu-push/" class="menuoption">My Airshares</a></li>
+        <li><img src="assets/images/uu_fave.png" class="img-responsive navicons" alt="Responsive image"><a href="./" class="menuoption">My Wishlist</a></li>
+        <li><img src="assets/images/uu_sent.png" class="img-responsive navicons" alt="Responsive image"><a href="../navbar-offcanvas/" class="menuoption">Sent Airshares</a></li>
+        <li><img src="assets/images/uu_progress.png" class="img-responsive navicons" alt="Responsive image"><a href="../navbar-offcanvas/" class="menuoption">Airshares in Progress</a></li>
+        <li><img src="assets/images/uu_account.png" class="img-responsive navicons" alt="Responsive image"><a href="../navbar-offcanvas/" class="menuoption">My Account</a></li>
+        <li><img src="assets/images/uu_help.png" class="img-responsive navicons" alt="Responsive image"><a href="../navbar-offcanvas/" class="menuoption">Help Center</a></li>
+        <li><img src="assets/images/nu_ccancel.png" class="img-responsive navicons" alt="Responsive image"><a href="../navbar-offcanvas/" class="menuoption">Logout</a></li>
+      </ul>
+      
+    </div>
+
+    <!-- where page body really starts -->
+    <div class="canvas">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <img src="assets/images/blue_nav_logo.png" class="img-responsive navlogo" alt="Responsive image">
+
+        <button type="button" class="navbar-toggle navmenubutton" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        
+
+        <a href="/"><img src="assets/images/nav_home_icon.svg" class="img-responsive navhome" alt="Responsive image"></a>
+      </div> <!-- navbar -->
+
+      <!-- <div class="container-fluid">
+        <div class="page-header">
+          <img src="assets/images/blue_nav_logo.png" class="img-responsive navlogo" alt="Responsive image">
+            <h1>Off Canvas Reveal Menu Template</h1> 
+          <a href="/"><img src="assets/images/nav_home_icon.svg" class="img-responsive navhome" alt="Responsive image"></a>
+        </div>
+      </div>  -->
+
+      <div class="container adjustmentcontainer">
+        
+        <div class="maincontainer">
+
+          <h2 class="pageheader tinybottom">Confirmation</h2>
+
+          <div class="confimages">
+            <div class="cover-item giftrecipient leftconfpic" style="background-image: url('assets/images/nu_blankuser.png')">
+              <p class="recipientsmallname">Blah B.</p>
+            </div>
+
+            <img src="assets/images/nu_logosm.png" alt="..." class="img conflogo">
+
+            <div class="cover-item giftrecipient rightconfpic" style="background-image: url('assets/images/nu_person.png')">
+              <p class="recipientsmallname">Blah B.</p>
+            </div>
+
+          </div>  <!-- confimages -->
+
+          <div class="confamount">
+            <p class="confcompanyname">New English Brewing Company</p>
+            <p class="conflocation">San Diego, CA</p>
+
+            <p class="showamount">$50</p>
+            <a href="#"><img src="assets/images/nu_minus.png" class="img-responsive minusbutton2" alt="Responsive image"></a>
+            <a href="#"><img src="assets/images/nu_plus.png" class="img-responsive plusbutton2" alt="Responsive image"></a>
+            
+            <select class="form-control moreoptionsdropdown"">
+              <option>More Options <span class="caret"></span></option>
+              <option>$10</option>
+              <option>$20</option>
+              <option>$30</option>
+              <option>$40</option>
+            </select>
+
+            <!-- below is documented in bootstap and works on desktop but tap issues on mobile devices
+
+
+            <div class="dropdown moreoptions">
+              <a id="dLabel" data-target="#" href="/viewmerchant.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                More Options
+                <span class="caret"></span>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li>$10</li>
+                <li>$20</li>
+                <li>$30</li>
+                <li>$40</li>
+              </ul>
+            </div>  -->
+
+          </div>  <!-- confamount -->
+
+          <div class="addamessage">
+            <img src="assets/images/nu_textbubble.png" alt="..." class="img smilyface">
+
+            <textarea class="form-control addmessagefield" rows="2" placeholder="Add personal note (optional)"></textarea>
+
+          </div> <!-- addamessage -->
+
+          <a class="btn btn-default addamountbutton" href="#" role="button">Confirm</a>
+
+
+        </div> <!-- maincontainer -->
+        
+        
+      </div><!-- /.container -->
+    </div> <!-- canvas -->
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/jasny-bootstrap.min.js"></script>
+  </body>
+</html>
