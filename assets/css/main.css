@@ -2677,7 +2677,9 @@ input[type=select] {
 
 }
 
-
+input {
+    -webkit-appearance: none;
+}
 
 
 
