@@ -2385,6 +2385,70 @@ input[type=select] {
     }
 }
 
+.cvvfield {
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.cvvinfo {
+    width: 10%;
+    float: right;
+    margin-top: -47px;
+    margin-right: 97px;
+
+}
+
+.lilmore {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .cvvinfo {
+        margin-top: -41px;
+        margin-right: 63px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .cvvinfo {
+        margin-top: -40px;
+        margin-right: 50px;
+    }
+
+    .lilmore {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cvvinfo {
+        margin-top: -38px;
+        margin-right: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
