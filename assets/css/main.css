@@ -2391,6 +2391,9 @@ input[type=select] {
     margin: auto;
     margin-top: 40px;
     border-radius: 5px;
+    color: #295197 !important;
+    font-size: 20px;
+    text-align: center;
 }
 
 .cvvinfo {
@@ -2430,7 +2433,6 @@ input[type=select] {
     }
 
 }
-
 
 
 
