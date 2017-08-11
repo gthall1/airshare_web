@@ -2434,20 +2434,248 @@ input[type=select] {
 
 }
 
+.ccfourfield {
+    width: 75px !important;
+    background-color:  #398EE9;
+    border: none;
+    border-bottom: solid 1px #295197;
+    color: #fff;
+    font-size: 20px;
+}
 
+.centerup {
+    text-align: center;
+}
 
+.ccfield {
+    margin-right: 8px;
+    margin-left: 8px;
+    display: inline-block;
+}
 
+.ccfourfield::-webkit-input-placeholder { 
+    color: #295197 !important;
+    font-size: 20px;
+    text-align: center;
 
+ }  /* WebKit, Blink, Edge */
+.ccfourfield:-moz-placeholder { 
+    color: #295197 !important;
+    font-size: 20px;
+    text-align: center;
 
+}  /* Mozilla Firefox 4 to 18 */
+.ccfourfield::-moz-placeholder { 
+    color: #295197 !important;
+    font-size: 20px;
+    text-align: center;
 
+}  /* Mozilla Firefox 19+ */
+.ccfourfield:-ms-input-placeholder { 
+    color: #295197 !important;
+    font-size: 20px;
+    text-align: center;
 
+}  /* Internet Explorer 10-11 */
+.ccfourfield::-ms-input-placeholder { 
+    color: #295197 !important;
+    font-size: 20px;
+    text-align: center;
 
+}  /* Microsoft Edge */
 
+.addpaymentcc {
+    display: inline-block;
+    width: 10%;
+    margin-right: 10px;
+}
 
+.addsecond {
+    margin-top: 30px;
+}
 
+.zipandarea {
+    border-radius: 5px;
+    color: #295197 !important;
+    text-align: center;
+}
 
+.zipandarea::-webkit-input-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
 
+ }  /* WebKit, Blink, Edge */
+.zipandarea:-moz-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
 
+}  /* Mozilla Firefox 4 to 18 */
+.zipandarea::-moz-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Mozilla Firefox 19+ */
+.zipandarea:-ms-input-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Internet Explorer 10-11 */
+.zipandarea::-ms-input-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Microsoft Edge */
+
+.streetaddressfield {
+    width: 365px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: #295197 !important;
+    font-size: 14px;
+    text-align: center;
+}
+
+.streetaddressfield::-webkit-input-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+ }  /* WebKit, Blink, Edge */
+.streetaddressfield:-moz-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Mozilla Firefox 4 to 18 */
+.streetaddressfield::-moz-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Mozilla Firefox 19+ */
+.streetaddressfield:-ms-input-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Internet Explorer 10-11 */
+.streetaddressfield::-ms-input-placeholder { 
+    color: #D8D8D8 !important;
+    font-size: 20px;
+    text-align: center;
+
+}  /* Microsoft Edge */
+
+.ccexp {
+    width: 77px !important;
+    color: #d8d8d8;
+    font-size: 20px;
+}
+
+.bottomfield {
+    border-bottom: 1px solid rgba(41,81,151,.35);
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .ccexp {
+        border-radius: 6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .offtheroof {
+        margin-top: 50px;
+    }
+
+    .ccnum {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .ccexp {
+        width: 42% !important;
+    }
+
+    .zip {
+        width: 90%;
+    }
+
+    .lowestform {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .offtheroof {
+        margin-top: 40px;
+    }
+
+    .ccnum {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .streetaddressfield {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ccfourfield {
+        width: 62px !important;
+        font-size: 14px;
+    }
+
+    .ccfourfield::-webkit-input-placeholder { 
+        color: #295197 !important;
+        font-size: 16px;
+        text-align: center;
+
+     }  /* WebKit, Blink, Edge */
+    .ccfourfield:-moz-placeholder { 
+        color: #295197 !important;
+        font-size: 16px;
+        text-align: center;
+
+    }  /* Mozilla Firefox 4 to 18 */
+    .ccfourfield::-moz-placeholder { 
+        color: #295197 !important;
+        font-size: 16px;
+        text-align: center;
+
+    }  /* Mozilla Firefox 19+ */
+    .ccfourfield:-ms-input-placeholder { 
+        color: #295197 !important;
+        font-size: 16px;
+        text-align: center;
+
+    }  /* Internet Explorer 10-11 */
+    .ccfourfield::-ms-input-placeholder { 
+        color: #295197 !important;
+        font-size: 16px;
+        text-align: center;
+
+    }  /* Microsoft Edge */
+
+    .smallconftext {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .smalladdbutton {
+        margin-top: 20px;
+    }
+
+}
 
 
 
