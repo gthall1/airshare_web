@@ -1193,7 +1193,7 @@ input[type=tel] {
 
 .fader {
     width: 100%;
-    margin-top: -115px;
+    margin-top: -124px;
 }
 
 .fader2 {
@@ -2682,6 +2682,95 @@ select {
    -moz-appearance: none;
    appearance: none;
 }
+
+.whitelogo {
+    margin: auto;
+    width: 18%;
+    margin-top: -548px;
+}
+
+.proceedcontainer {
+    width: 425px;
+    height: 600px;
+    padding-top: 60px;
+}
+
+.bluefader {
+    margin-top: -60px;
+    height: 600px;
+}
+
+.bignumber {
+    font-size: 88px;
+    text-align: center;
+    color: #fff;
+    margin-top: 17px;
+}
+
+.recipientdeets {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.androidbutton {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.iosbutton {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rowofbuttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.viewinbrowserbutton {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 30px;
+    width: 280px;
+}
+
+.browserdiv {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .proceedcontainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .whitelogo {
+        margin-top: -570px;
+    }
+
+    .recipientdeets {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .bignumber {
+        font-size: 66px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
