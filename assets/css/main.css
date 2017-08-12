@@ -2734,6 +2734,8 @@ select {
     color: #fff;
     margin-top: 30px;
     width: 280px;
+    height: 45px;
+    padding-top: 12px;
 }
 
 .browserdiv {
