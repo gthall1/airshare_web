@@ -2714,12 +2714,14 @@ select {
 
 .androidbutton {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 2px;
+    height: 45px;
 }
 
 .iosbutton {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 2px;
+    height: 45px;
 }
 
 .rowofbuttons {
