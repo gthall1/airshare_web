@@ -356,6 +356,7 @@ body {
 
 .containerblue {
     background-color: #398EE9;
+    padding-bottom: 100px;
 }
 
 .wishlistheader {
@@ -2765,7 +2766,13 @@ select {
     }
 }
 
+.newblue {
+    background-color: #4a90e2;
+}
 
+.newblue:hover, .newblue:focus, .newblue:active {
+    background-color: #4a90e2 !important;
+}
 
 
 
