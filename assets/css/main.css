@@ -2546,38 +2546,38 @@ input[type=select] {
 .streetaddressfield::-webkit-input-placeholder { 
     color: #D8D8D8 !important;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 
  }  /* WebKit, Blink, Edge */
 .streetaddressfield:-moz-placeholder { 
     color: #D8D8D8 !important;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 
 }  /* Mozilla Firefox 4 to 18 */
 .streetaddressfield::-moz-placeholder { 
     color: #D8D8D8 !important;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 
 }  /* Mozilla Firefox 19+ */
 .streetaddressfield:-ms-input-placeholder { 
     color: #D8D8D8 !important;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 
 }  /* Internet Explorer 10-11 */
 .streetaddressfield::-ms-input-placeholder { 
     color: #D8D8D8 !important;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 
 }  /* Microsoft Edge */
 
 .ccexp {
-    width: 77px !important;
     color: #d8d8d8;
     font-size: 16px;
+    margin-top: 30px;
 }
 
 .bottomfield {
@@ -2773,6 +2773,83 @@ select {
 .newblue:hover, .newblue:focus, .newblue:active {
     background-color: #4a90e2 !important;
 }
+
+.feedbackfield {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 350px) {
+    .love {
+        margin-top: 20px;
+    }
+
+    .feedbackfield {
+        margin-top: 20px;
+        height: 200px !important;
+    }
+
+    .marksection {
+        margin-top: 20px;
+    }
+
+    .sendfeedbackbutton {
+        margin-top: 26px;
+    }
+
+    .longersubheader {
+        width: 80%;
+    }
+
+}
+
+.hundredpercent {
+    width: 100% !important;
+}
+
+.brandnewrow {
+    text-align: center;
+    padding-left: 8px;
+    margin-top: -30px;
+}
+
+.fortysixer {
+    width: 46.5% !important;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .padfull {
+        width: 93% !important;
+    }
+
+    .extrawidth {
+        padding-right: 0;
+        width: 95% !important;
+    }
+
+    .pullthefloor {
+        margin-top: -30px;
+    }
+
+    .firstweirdmargin {
+        margin-top: 10px;
+    }
+
+    .secondweirdmargin {
+        margin-top: 26px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
