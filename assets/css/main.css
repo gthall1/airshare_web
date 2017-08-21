@@ -430,6 +430,7 @@ body {
     display: block;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 480px) {
@@ -2843,7 +2844,10 @@ select {
 }
 
 
-
+.giftrecipient {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 
