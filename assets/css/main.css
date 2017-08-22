@@ -1198,10 +1198,10 @@ input[type=tel] {
     width: 375px;
     display: block;
     margin: auto;
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
+    /*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
     background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../images/drink.png"); */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1679,6 +1679,24 @@ input[type=tel] {
     margin-top: 50px;
 }
 
+.createaccountairsharebutton:hover {
+    background-color: #4A90E2;
+    color: #fff;
+    border: solid 1px #4A90E2;
+}
+
+.createaccountairsharebutton:focus {
+    background-color: #4A90E2 !important;
+    color: #fff !important;
+    border: solid 1px #4A90E2 !important;
+}
+
+.createaccountairsharebutton:active {
+    background-color: #4A90E2 !important;
+    color: #fff !important;
+    border: solid 1px #4A90E2 !important;
+}
+
 .alreadyhaveaccount {
     text-align: center;
     margin-top: 30px;
@@ -1884,7 +1902,17 @@ a:focus, a:hover {
 
 .canvasblue {
   background-image: url("../images/background_tile_blue_2.jpg");
+  background-color: #398EE9;
 }
+
+@media screen and (max-width: 480px) {
+    .canvasblue {
+        background-image: none;
+    }
+
+
+}
+
 
 .locationicons {
   float: left;
@@ -2960,10 +2988,32 @@ select {
     .coversbutton {
         margin-top: -46px;
     }
+
+    .bluefader {
+        margin-top: -60px;
+    }
+
+    .littleroom {
+        width: 90%;
+    }
+
+    .merchantmenu {
+        padding-left: 45px;
+    }
+
+    .babybitmore {
+        width: 98%;
+    }
+
+    .merchantmenu2 {
+        padding-left: 25px;
+    }
 }
 
 
-
+a:hover {
+    color: #fff;
+}
 
 
 

@@ -21,6 +21,14 @@ html, body {
   background-image: url("../images/background_tile_black_2.jpg");
 }
 
+@media screen and (max-width: 480px) {
+    .canvas {
+        background-image: none;
+    }
+
+
+}
+
 @media (min-width: 0) {
   .navbar-toggle {
     display: block; /* force showing the toggle */
