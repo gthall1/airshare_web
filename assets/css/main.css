@@ -3050,6 +3050,38 @@ a:hover {
     font-weight: 100;
 }
 
+
+.customsignup {
+    color: #7D7E82;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .customsignup {
+        font-size: 18px;
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .whitereceived {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .whitereceived {
+        padding-top: 10px;
+    }
+
+    .customsignup {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .sharecare {
         font-size: 26px;
@@ -3057,6 +3089,29 @@ a:hover {
 
     .sent {
         font-size: 18px;
+    }
+
+    .containerwhite {
+        padding-top: 25px;
+    }
+
+    .whitereceived {
+        padding-top: 0;
+        margin-top: -10px;
+    }
+
+    .customsignup {
+        font-size: 14px;
+    }
+
+    .receivedsignup {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .containerwhite {
+        padding-top: 30px;
     }
 }
 
