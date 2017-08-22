@@ -3179,9 +3179,20 @@ a:hover {
     }
 }
 
+.receivedchange {
+    background-color: transparent !important;
+    margin-top: 25px;
+    margin-left: 122px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+}
 
-
-
+@media screen and (max-width: 350px) {
+    .receivedchange {
+        margin-left: 99px;
+    }
+}
 
 
 
