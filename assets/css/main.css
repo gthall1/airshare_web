@@ -2276,6 +2276,7 @@ a:focus, a:hover {
     color: #7A92AD;
     height: 30px;
     margin-left: 201px;
+    font-size: 14px;
 }
 
 .conflocation {
@@ -3170,6 +3171,7 @@ a:hover {
 .merchantoptions {
     background-color: #000;
     margin-left: 137px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 350px) {
@@ -3177,5 +3179,42 @@ a:hover {
         margin-left: 107px;
     }
 }
+
+.merchantoptions::-webkit-input-placeholder { 
+    font-size: 16px;
+ }  /* WebKit, Blink, Edge */
+.merchantoptions:-moz-placeholder { 
+    font-size: 16px; 
+}  /* Mozilla Firefox 4 to 18 */
+.merchantoptions::-moz-placeholder { 
+    font-size: 16px; 
+}  /* Mozilla Firefox 19+ */
+.merchantoptions:-ms-input-placeholder { 
+    font-size: 16px; 
+}  /* Internet Explorer 10-11 */
+.merchantoptions::-ms-input-placeholder { 
+    font-size: 16px; 
+}  /* Microsoft Edge */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
