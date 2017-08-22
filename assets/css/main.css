@@ -2087,6 +2087,24 @@ a:focus, a:hover {
     color: #fff !important;
 }
 
+.newairsharebutton:hover {
+    background-color: #295197;
+    border: solid 1px #295197;
+    color: #fff;
+}
+
+.newairsharebutton:focus {
+    background-color: #295197 !important;
+    border: solid 1px #295197 !important;
+    color: #fff !important;
+}
+
+.newairsharebutton:active {
+    background-color: #295197 !important;
+    border: solid 1px #295197 !important;
+    color: #fff !important;
+}
+
 .fiver {
     margin-top: 0;
 }
@@ -2226,11 +2244,11 @@ a:focus, a:hover {
 .moreoptionsdropdown {
     background-color: #1c1c1c;
     border: none;
-    width: 115px;
+    width: 130px;
     display: block;
     margin-top: -30px;
     margin-bottom: 30px;
-    padding-left: 25px;
+    padding-left: 10px;
     color: #7A92AD;
     height: 30px;
     margin-left: 201px;
@@ -2308,7 +2326,7 @@ a:focus, a:hover {
 
 @media screen and (max-width: 980px) {
     .moreoptionsdropdown {
-        margin-left: 180px;
+        margin-left: 200px;
         width: 145px;
     }
 }
@@ -2341,7 +2359,7 @@ a:focus, a:hover {
     }
 
     .moreoptionsdropdown {
-        margin-left: 140px;
+        margin-left: 155px;
     }
 }
 
@@ -2373,7 +2391,7 @@ a:focus, a:hover {
     }
 
     .moreoptionsdropdown {
-        margin-left: 116px;
+        margin-left: 137px;
         margin-bottom: 20px;
     }
 }
@@ -2409,7 +2427,7 @@ a:focus, a:hover {
     }
 
     .moreoptionsdropdown {
-        margin-left: 90px;
+        margin-left: 108px;
         margin-bottom: 20px;
     }
 }
