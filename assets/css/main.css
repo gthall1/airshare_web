@@ -2274,9 +2274,8 @@ a:focus, a:hover {
     margin-bottom: 30px;
     padding-left: 10px;
     color: #7A92AD;
-    height: 30px;
+    height: 40px;
     margin-left: 201px;
-    font-size: 14px;
 }
 
 .conflocation {
@@ -3170,12 +3169,13 @@ a:hover {
 
 .merchantoptions {
     background-color: #000;
-    margin-left: 137px;
+    margin-left: 131px;
+    font-size: 16px !important;
 }
 
 @media screen and (max-width: 350px) {
     .merchantoptions {
-        margin-left: 107px;
+        margin-left: 102px;
     }
 }
 
