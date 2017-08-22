@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="">
 
-    <title>Received Airshare</title>
+    <title>My Airshares</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,6 @@
     <!-- Custom styles for this template -->
 
     <link href="assets/css/navmenu-reveal.css" rel="stylesheet">
-    <link href="assets/css/lity.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -80,43 +79,61 @@
         
         <div class="maincontainer">
 
-          <h2 class="pageheader">Received Airshare</h2>
+          <h2 class="pageheader">My Airshares</h2>
 
-          <div class="videocontainer" style="background-image: url(assets/images/gracie_big.png)">
-            <a href="assets/videos/barking_dog_ale_house.mp4" data-lity><img src="assets/images/nu_play.png" class="img-responsive vidplay" alt="Responsive image"></a>
+            <div id="exTab3" class=""> 
+              <ul  class="nav nav-pills">
+                <li class="active airsharetabs">
+                  <a  href="#1b" data-toggle="tab" class="toredeem">Gifter Msg</a>
+                </li>
+                <li class="airsharetabs"><a href="#2b" data-toggle="tab" class="toredeem">Gift Details</a>
+                </li>
+              </ul>
 
-            <div class="airsharenote">
+              <div class="tab-content clearfix">
+                <div class="tab-pane active" id="1b">
+                  
+                  <div class="videocontainer changedcontainer" style="background-image: url(assets/images/gracie_big.png)">
+                    <a href="assets/videos/barking_dog_ale_house.mp4" data-lity><img src="assets/images/nu_play.png" class="img-responsive vidplay" alt="Responsive image"></a>
 
-              <div class="picandname">
-                <img src="assets/images/profile_2.png" alt="..." class="img-circle">
-                <p class="airsharename">Julie Smith</p>
+                    <div class="airsharenote">
+
+                      <div class="picandname">
+                        <img src="assets/images/profile_2.png" alt="..." class="img-circle">
+                        <p class="airsharename">Julie Smith</p>
+                      </div>
+                      <p class="airsharemsg">Happy birthday, Kelly! I hope you are able to take advantage of this while you visit Del Mar. It is one of my very favorite restaurants in the world!</p>              
+
+                    </div>  <!-- airsharenote -->
+
+                    <img src="assets/images/nu_fader.png" class="img-responsive fader receivedfader" alt="Responsive image">
+
+                  </div> <!-- video container -->
+
+                  
+                </div>
+                <div class="tab-pane" id="2b">
+                  <div class="lowercontainer changedcontainer">
+                    <img src="assets/images/nu_fader_2.png" class="img-responsive fader2" alt="Responsive image">
+                    <a href="assets/videos/barking_dog_ale_house.mp4" data-lity><img src="assets/images/nu_play.png" class="img-responsive vidplay2 diffplay" alt="Responsive image"></a>
+                    <p class="price2">$45.00</p>
+
+                    <a class="btn btn-default createaccountairsharebutton" href="#" role="button">Redeem Now</a>
+                    <p class="alreadyhaveaccount"><a href="#" class="whitelogin">Change Amount</a></p>
+
+                    <div class="buttonscont">
+                      <button class="btn btn-default sidebybuttons" type="submit">View Locations</button>
+                      <button class="btn btn-default sidebybuttons" type="submit">Exchange Merchant</button>
+                    </div>
+                  </div> <!-- lower container -->
+                </div>
+                
               </div>
-              <p class="airsharemsg">Happy birthday, Kelly! I hope you are able to take advantage of this while you visit Del Mar. It is one of my very favorite restaurants in the world!</p>              
-
-            </div>  <!-- airsharenote -->
-
-            <img src="assets/images/nu_fader.png" class="img-responsive fader" alt="Responsive image">
-
-          </div> <!-- video container -->
-
-          <div class="inbetween">
-          <p class="betweencompany">Iris Food &amp; Spirits</p>
-          <p class="betweencategory">Food &amp; Beverage</p>
-          </div> <!-- in between -->
-
-          <div class="lowercontainer">
-            <img src="assets/images/nu_fader_2.png" class="img-responsive fader2" alt="Responsive image">
-            <a href="assets/videos/barking_dog_ale_house.mp4" data-lity><img src="assets/images/nu_play.png" class="img-responsive vidplay2 diffplay" alt="Responsive image"></a>
-            <p class="price2">$45.00</p>
-
-            <a class="btn btn-default createaccountairsharebutton" href="#" role="button">Redeem Now</a>
-            <p class="alreadyhaveaccount"><a href="#" class="whitelogin">Change Amount</a></p>
-
-            <div class="buttonscont">
-              <button class="btn btn-default sidebybuttons" type="submit">View Locations</button>
-              <button class="btn btn-default sidebybuttons" type="submit">Exchange Merchant</button>
             </div>
-          </div> <!-- lower container -->
+
+
+          
+
 
         </div> <!-- maincontainer -->
         
@@ -132,6 +149,5 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="assets/js/jasny-bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/lity.js"></script>
   </body>
 </html>

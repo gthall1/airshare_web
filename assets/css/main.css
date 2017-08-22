@@ -44,6 +44,7 @@ body {
     float: right;
     margin-top: -52px;
     margin-right: 14px;
+    padding-top: 2px;
 }
 
 .navmenu-default, .navbar-default .navbar-offcanvas {
@@ -58,7 +59,7 @@ body {
     min-height: 500px;
     display: block;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -109,7 +110,7 @@ body {
 }
 
 .navmenubutton {
-    margin-top: -65px;
+    margin-top: -68px;
 }
 
 .navmenu, .navbar-offcanvas {
@@ -176,7 +177,7 @@ body {
     }
 
     .navhome {
-        margin-top: -36px;
+        margin-top: -35px;
     }
 
     .navmenubutton {
@@ -184,7 +185,7 @@ body {
     }
 
     .navbar-toggle {
-        margin-bottom: 0px;
+        margin-bottom: 3px;
     }
 
     .menuname {
@@ -1111,14 +1112,14 @@ input[type=tel] {
     }
 
     .maincontainer {
-        padding-top: 5px;
+        padding-top: 50px;
     }
 
 }
 
 @media screen and (max-width: 480px) {
     .maincontainer {
-        padding-top: 50px;
+        padding-top: 90px;
     }
 
 }
@@ -2849,9 +2850,49 @@ select {
     margin-right: 0;
 }
 
+@media screen and (max-width: 380px) {
+    .changedcontainer {
+        width: 100%;
+    }
 
+}
 
+@media screen and (max-width: 350px) {
+    .receivedfader {
+        margin-top: -95px;
+    }
 
+    .sidebybuttons {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+.navtitle {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    font-size: 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .navtitle {
+        font-size: 22px;
+        margin-top: 23px;
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navtitle {
+        font-size: 18px;
+        margin-top: 24px;
+        margin-bottom: 3px;
+    }
+}
 
 
 

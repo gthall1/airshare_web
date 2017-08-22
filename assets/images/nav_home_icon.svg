@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="29px" viewBox="0 0 32 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
     <title>Home Copy</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Home-Copy">
-            <path d="M0,11.7139817 L32.2134497,11.7139817 L32.2134497,28.7525005 L0,28.7525005 L0,11.7139817 Z M16.1067248,0 L32.2134497,11.7139817 L0,11.7139817 L16.1067248,0 Z" id="Combined-Shape" fill="#91C7FF"></path>
+            <path d="M0,11.7139817 L32.2134497,11.7139817 L32.2134497,28.7525005 L0,28.7525005 L0,11.7139817 Z M16.1067248,0 L32.2134497,11.7139817 L0,11.7139817 L16.1067248,0 Z" id="Combined-Shape" fill="#4A8FE2"></path>
             <rect id="Rectangle-2" fill="#1C1C1C" x="11.0484146" y="18.63588" width="10.1166206" height="10.1166206"></rect>
         </g>
     </g>
