@@ -299,6 +299,18 @@ body {
     font-size: 18px;
 }
 
+.sentviewbutton:hover {
+    background-color: #398EE9;
+    border: solid 1px #398EE9;
+    color: #fff;
+}
+
+.sentviewbutton:focus, .sentviewbutton:active {
+    background-color: #398EE9 !important;
+    border: solid 1px #398EE9 !important;
+    color: #fff !important;
+}
+
 .price {
     float: right;
     margin-top: -129px;
@@ -432,6 +444,18 @@ body {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+.newcontactbutton:hover {
+    background-color: #000;
+    border: solid 1px #000;
+    color: #fff;
+}
+
+.newcontactbutton:focus, .newcontactbutton:active {
+    background-color: #000 !important;
+    border: solid 1px #000 !important;
+    color: #fff !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -3131,6 +3155,10 @@ a:hover {
     .containerwhite {
         padding-top: 30px;
     }
+}
+
+.donedone {
+    margin-top: 40px;
 }
 
 
