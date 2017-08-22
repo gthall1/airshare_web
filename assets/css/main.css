@@ -3167,7 +3167,15 @@ a:hover {
     margin-top: 40px;
 }
 
+.merchantoptions {
+    background-color: #000;
+    margin-left: 137px;
+}
 
-
+@media screen and (max-width: 350px) {
+    .merchantoptions {
+        margin-left: 107px;
+    }
+}
 
 
