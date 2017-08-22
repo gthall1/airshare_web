@@ -2892,6 +2892,12 @@ select {
     background-color: #4a90e2 !important;
 }
 
+.viewinbrowserbutton:hover, .viewinbrowserbutton:focus, .viewinbrowserbutton:active {
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
 .feedbackfield {
     font-size: 20px;
 }
