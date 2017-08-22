@@ -2884,6 +2884,10 @@ select {
         margin-top: 23px;
         margin-bottom: 9px;
     }
+
+    .navbar-toggle .icon-bar {
+        width: 32px;
+    }
 }
 
 @media screen and (max-width: 350px) {
