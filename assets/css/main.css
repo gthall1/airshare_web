@@ -59,7 +59,7 @@ body {
     min-height: 500px;
     display: block;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 120px;
     margin-bottom: 100px;
 }
 
@@ -513,13 +513,51 @@ body {
 
 .navback {
     float: left;
-    margin-top: -50px;
+    margin-top: -43px;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     font-family: 'Biryani', sans-serif;
     font-weight: 200;
 }
+
+.navright {
+    float: right;
+    margin-top: -43px;
+    color: #fff;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .navright {
+        margin-top: -34px;
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    .navright {
+        margin-top: -34px;
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    .navright {
+        margin-top: -24px;
+        font-size: 14px;
+    }
+
+
+}
+
 
 .marksection {
     margin-left: 190px;
@@ -572,7 +610,7 @@ body {
 
 @media screen and (max-width: 380px) {
     .navback {
-        margin-top: -30px;
+        margin-top: -35px;
         font-size: 16px;
     }
 
@@ -589,6 +627,19 @@ body {
 @media screen and (max-width: 351px) {
     .marksection {
         margin-left: 96px;
+    }
+
+    .navback {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    .nobuttonnav {
+        margin-bottom: 12px !important;
+    }
+
+    .editright {
+        margin-top: -34px;
     }
 
 }
@@ -1119,7 +1170,7 @@ input[type=tel] {
 
 @media screen and (max-width: 480px) {
     .maincontainer {
-        padding-top: 90px;
+        padding-top: 60px;
     }
 
 }
@@ -1971,7 +2022,6 @@ a:focus, a:hover {
 
 .selectacover {
     color: #fff;
-    margin-top: 80px;
     text-align: center;
 }
 
@@ -2022,11 +2072,7 @@ a:focus, a:hover {
     width: 300px;
 }
 
-@media screen and (max-width: 1280px) {
-    .selectacover {
-        margin-top: 60px;
-    }
-}
+
 
 @media screen and (max-width: 480px) {
     .selectacover {
@@ -2888,6 +2934,10 @@ select {
     .navbar-toggle .icon-bar {
         width: 32px;
     }
+
+    .locationshome {
+        margin-top: -45px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -2896,7 +2946,22 @@ select {
         margin-top: 24px;
         margin-bottom: 3px;
     }
+
+    .locfader {
+        margin-top: 121px;
+    }
+
+    .loctitle {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .coversbutton {
+        margin-top: -46px;
+    }
 }
+
 
 
 
