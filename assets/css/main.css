@@ -2968,8 +2968,22 @@ select {
 
 
 .giftrecipient {
-    margin-left: 0;
+    margin-left: 15px;
     margin-right: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .giftrecipient {
+        margin-left: 2px; 
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .giftrecipient {
+        margin-left: 0px; 
+    }
+
 }
 
 @media screen and (max-width: 380px) {
@@ -3194,13 +3208,26 @@ a:hover {
     }
 }
 
+@media screen and (min-width: 769px) {
+    .nodesk {
+        display: none;
+    }
+
+}
 
 
+.personalizecontainer {
+    min-height: 484px;
+    padding-top: 84px;
+    padding-bottom: 0;
+}
 
 
-
-
-
+@media screen and (max-width: 768px) {
+    .personalizecontainer {
+        padding-top: 30px;
+    }
+}
 
 
 
