@@ -3230,6 +3230,285 @@ a:hover {
     }
 }
 
+.weirdone {
+    height: 300px;
+    margin-bottom: 0;
+}
+
+.weirdrow {
+    border-bottom: 1px solid #666;
+}
+
+.colorfullogo {
+    display: block;
+    margin: auto;
+    width: 10%;
+    margin-top: 55px;
+}
+
+.weirdcanvas {
+    background-image: none;
+    background-color: #fff;
+}
+
+.weirdcontainer {
+
+}
+
+.leftbox {
+    min-height: 600px;
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+.rightbox {
+    background-color: #1c1c1c;
+    min-height: 600px;
+    padding-top: 50px;
+}
+
+.senderpic {
+    display: block;
+    margin: auto;
+    width: 23%;
+    margin-top: 35px;
+}
+
+.giftawaits {
+    text-align: center;
+    color: #c2c2c2;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.awaitfrom {
+    text-align: center;
+    font-size: 36px;
+}
+
+.newprice {
+    text-align: center;
+    color: #fff;
+    font-size: 66px;
+}
+
+.shoppic {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.newco {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.downloadapp {
+    min-height: 400px;
+    padding-top: 80px;
+}
+
+.appstorebtn {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.newfooter {
+    min-height: 325px;
+    background-color: #1c1c1c;
+}
+
+.clickherebrowser {
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.clickherebrowser:hover {
+    color: #337ab7;
+}
+
+.socialrow {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 1px solid #666;
+    padding-bottom: 60px;
+}
+
+.socialp {
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cpy {
+    text-align: center;
+    color: #666;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .weirdone {
+        height: 250px;
+    }
+
+    .leftbox, .rightbox {
+        min-height: 500px;
+    }
+
+    .downloadapp {
+        min-height: 375px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .weirdcanvas {
+        padding-top: 0;
+    }
+
+    .weirdone {
+        height: 215px;
+    }
+
+    .leftbox {
+        padding-top: 60px;
+    }
+
+    .rightbox {
+        padding-bottom: 60px;
+    }
+
+    .giftawaits {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .downloadapp {
+        padding-top: 60px;
+        min-height: 360px;
+    }
+
+    .socialrow {
+        margin-top: 60px;
+    }
+
+    .newfooter {
+        min-height: 260px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .colorfullogo {
+        width: 15%;
+        margin-top: 24px;
+    }
+
+    .weirdone {
+        height: 125px;
+    }
+
+    .leftbox {
+        min-height: 450px;
+    }
+
+    .giftawaits {
+        font-size: 28px;
+    }
+
+    .awaitfrom {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    .senderpic {
+        width: 30%;
+    }
+
+    .shoppic {
+        width: 45%;
+    }
+
+    .newco {
+        font-size: 32px;
+    }
+
+    .appstorebtn {
+        width: 50%;
+    }
+
+    .clickherebrowser {
+        font-size: 14px;
+    }
+
+    .socialrow {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .colorfullogo {
+        width: 18%;
+        margin-top: 20px;
+    }
+
+    .appstorebtn {
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .weirdone {
+        height: 115px;
+    }
+
+    .leftbox {
+        padding-top: 40px;
+    }
+
+    .giftawaits {
+        width: 90%;
+    }
+
+    .senderpic {
+        width: 50%;
+    }
+
+    .shoppic {
+        width: 65%;
+    }
+
+    .downloadapp {
+        padding-top: 45px;
+    }
+
+    .appstorebtn {
+        width: 75%;
+        margin-top: 42px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
