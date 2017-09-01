@@ -3508,9 +3508,9 @@ a:hover {
 }
 
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1650px) {
     .weirdone {
-        height: 440px;
+        height: 340px;
     }
 
     .rightbox, .leftbox {
@@ -3524,7 +3524,29 @@ a:hover {
 }
 
 
+@media screen and (min-width: 2000px) {
+    .weirdone {
+        height: 380px;
+    }
 
+
+}
+
+@media screen and (min-width: 2300px) {
+    .weirdone {
+        height: 420px;
+    }
+
+
+}
+
+@media screen and (min-width: 2550px) {
+    .weirdone {
+        height: 440px;
+    }
+
+
+}
 
 
 
