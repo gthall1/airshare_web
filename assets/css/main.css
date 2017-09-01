@@ -3284,6 +3284,7 @@ a:hover {
 .awaitfrom {
     text-align: center;
     font-size: 36px;
+    font-weight: 500;
 }
 
 .newprice {
@@ -3507,7 +3508,20 @@ a:hover {
 }
 
 
+@media screen and (min-width: 1500px) {
+    .weirdone {
+        height: 440px;
+    }
 
+    .rightbox, .leftbox {
+        min-height: 850px;
+    }
+
+    .senderpic {
+        width: 25%;
+    }
+
+}
 
 
 
