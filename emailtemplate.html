@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+
+    <title>Email Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <style type="text/css">
+
+      .weirdone {
+          height: 300px;
+          margin-bottom: 0;
+          background-color: #1c1c1c;
+      }
+
+      .weirdrow {
+          border-bottom: 1px solid #666;
+      }
+
+      .colorfullogo {
+          display: block;
+          margin: auto;
+          width: 10%;
+          margin-top: 55px;
+      }
+
+      .weirdcanvas {
+          background-image: none;
+      }
+
+      .weirdcontainer {
+
+      }
+
+      .leftbox {
+          min-height: 600px;
+          background-color: #fff;
+          padding-top: 100px;
+      }
+
+      .rightbox {
+          background-color: #1c1c1c;
+          min-height: 600px;
+          padding-top: 50px;
+      }
+
+      .senderpic {
+          display: block;
+          margin: auto;
+          width: 23%;
+          margin-top: 35px;
+          border-radius: 50%;
+      }
+
+      .giftawaits {
+          text-align: center;
+          color: #c2c2c2;
+          font-style: italic;
+          font-size: 32px;
+      }
+
+      .awaitfrom {
+          text-align: center;
+          font-size: 36px;
+          font-weight: 500;
+      }
+
+      .newprice {
+          text-align: center;
+          color: #fff;
+          font-size: 66px;
+      }
+
+      .shoppic {
+          width: 30%;
+          display: block;
+          margin: auto;
+      }
+
+      .newco {
+          text-align: center;
+          color: #fff;
+          font-size: 36px;
+          margin-top: 30px;
+      }
+
+      .downloadapp {
+          min-height: 400px;
+          padding-top: 80px;
+      }
+
+      .appstorebtn {
+          width: 30%;
+          display: block;
+          margin: auto;
+          margin-top: 50px;
+      }
+
+      .newfooter {
+          min-height: 325px;
+          background-color: #1c1c1c;
+      }
+
+      .clickherebrowser {
+          text-align: center;
+          display: block;
+          margin-top: 40px;
+          font-size: 20px;
+          margin-bottom: 60px;
+      }
+
+      .clickherebrowser:hover {
+          color: #337ab7;
+      }
+
+      .socialrow {
+          width: 30%;
+          display: block;
+          margin: auto;
+          margin-top: 100px;
+          text-align: center;
+          border-bottom: 1px solid #666;
+          padding-bottom: 60px;
+      }
+
+      .socialp {
+          width: 7%;
+          margin-left: 10px;
+          margin-right: 10px;
+      }
+
+      .cpy {
+          text-align: center;
+          color: #666;
+          margin-top: 30px;
+      }
+
+
+
+      @media screen and (max-width: 1280px) {
+          .weirdone {
+              height: 250px !important;
+          }
+
+          .leftbox, .rightbox {
+              min-height: 360px !important;
+          }
+
+          .downloadapp {
+              min-height: 375px !important;
+          }
+      }
+
+      @media screen and (max-width: 991px) {
+          .weirdcanvas {
+              padding-top: 0 !important;
+          }
+
+          .colorfullogo {
+              width: 12% !important;
+          }
+
+          .weirdone {
+              height: 160px !important;
+          }
+
+          .leftbox {
+              padding-top: 60px !important;
+          }
+
+          .rightbox {
+              padding-bottom: 24px !important;
+          }
+
+          .giftawaits {
+              width: 80% !important;
+              display: block !important;
+              margin: auto !important;
+          }
+
+          .downloadapp {
+              padding-top: 60px !important;
+              min-height: 280px !important;
+              background-color: #ffffff !important;
+              padding-bottom: 20px !important;
+          }
+
+          .socialrow {
+              margin-top: 0 !important;
+              padding-top: 50px !important;
+              width: 90% !important;
+          }
+
+          .newfooter {
+              min-height: 260px !important;
+          }
+      }
+
+      @media screen and (max-width: 480px) {
+          .colorfullogo {
+              width: 15% !important;
+              margin-top: 24px !important;
+          }
+
+          .weirdone {
+              height: 110px !important;
+          }
+
+          .leftbox {
+              min-height: 340px !important;
+          }
+
+          .giftawaits {
+              font-size: 28px !important;
+          }
+
+          .awaitfrom {
+              font-size: 32px !important;
+              margin-top: 10px !important;
+          }
+
+          .senderpic {
+              width: 30% !important;
+          }
+
+          .shoppic {
+              width: 45% !important;
+          }
+
+          .newco {
+              font-size: 32px !important;
+          }
+
+          .appstorebtn {
+              width: 50% !important !important;
+          }
+
+          .clickherebrowser {
+              font-size: 14px !important;
+          }
+
+          .socialrow {
+              width: 80% !important;
+          }
+      }
+
+      @media screen and (max-width: 480px) {
+          .colorfullogo {
+              width: 18% !important;
+              margin-top: 20px !important;
+          }
+
+          .appstorebtn {
+              width: 65% !important;
+          }
+
+          .socialp {
+            width: 12% !important;
+          }
+
+      }
+
+      @media screen and (max-width: 350px) {
+          .weirdone {
+              height: 96px !important;
+          }
+
+          .leftbox {
+              padding-top: 40px !important;
+          }
+
+          .giftawaits {
+              width: 90% !important;
+          }
+
+          .senderpic {
+              width: 50% !important;
+          }
+
+          .shoppic {
+              width: 65% !important;
+          }
+
+          .downloadapp {
+              padding-top: 45px !important;
+          }
+
+          .appstorebtn {
+              width: 75% !important;
+              margin-top: 42px !important;
+          }
+
+      }
+
+      .weirdone {
+          border: none;
+          border-bottom: 1px solid #666;
+      }
+
+
+
+    </style>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body style="margin-left: 0; margin-right: 0; max-width: 600px; display: block; margin: auto;" bgcolor="#1c1c1c">
+
+    <!-- where page body really starts -->
+    <div class="canvas weirdcanvas">
+      <div class="navbar navbar-default weirdone">
+
+        
+        <img src="assets/images/new_logo.png" class="img-responsive colorfullogo" alt="Responsive image">
+        
+
+      </div> <!-- navbar -->
+
+      <div class="container-fluid weirdcontainer">
+        <div class="row weirdrow">
+          <div class="col-md-6 leftbox">
+            <p class="giftawaits">A special gift awaits you, from</p>
+            <p class="awaitfrom">Camden Williams</p>
+            <img src="assets/images/girl2.png" alt="user" class="img-circle senderpic">
+
+          </div>
+
+          <div class="col-md-6 rightbox">
+            <p class="newprice" style="margin-top: 10px; margin-bottom: 40px;">$100</p>
+            <img src="assets/images/surfshop.png" alt="user" class="img shoppic">
+            <p class="newco">A-Frame Surf Shop</p>
+          </div>
+        </div>  <!-- row -->
+
+        <div class="downloadapp">
+          <p class="giftawaits">Download the Airshare app now to view &amp; redeem your gift!</p>
+          <a href="#"><img src="assets/images/app_store_btn.png" alt="" class="img appstorebtn"></a>
+          <a href="#" class="clickherebrowser">Or click here to view in browser</a>
+        </div>
+
+        <div class="row newfooter">
+          <div class="socialrow">
+            <a href="#"><img src="assets/images/social_placeholder.png" alt="" class="img socialp"></a>
+            <a href="#"><img src="assets/images/social_placeholder.png" alt="" class="img socialp"></a>
+            <a href="#"><img src="assets/images/social_placeholder.png" alt="" class="img socialp"></a>
+            <a href="#"><img src="assets/images/social_placeholder.png" alt="" class="img socialp"></a>
+
+          </div>
+
+          <p class="cpy">Copyright 2017 Airshare Technologies. All rights reserved.</p>
+
+
+        </div>
+        
+        
+        
+      </div><!-- container-fluid -->
+    </div> <!-- canvas -->
+    
+
+    
+  </body>
+</html>
