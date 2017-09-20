@@ -3464,7 +3464,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
     .colorfullogo {
         width: 18%;
         margin-top: 20px;
